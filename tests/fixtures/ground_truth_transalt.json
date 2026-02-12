@@ -1,0 +1,47 @@
+{
+  "ein": "510186015",
+  "org_name": "Transportation Alternatives",
+  "confirmed_current": [
+    {"name": "Janet Liff", "role": "Chair"},
+    {"name": "Hope Reeves", "role": "Vice Chair"},
+    {"name": "Stanley Toussaint", "role": "Treasurer"},
+    {"name": "Christine Berthet"},
+    {"name": "Daniel Kaizer"},
+    {"name": "Mary Beth Kelly"},
+    {"name": "Andy Lerner"},
+    {"name": "Gentry Lock"},
+    {"name": "Adam Mansky"},
+    {"name": "Martin Mignot"},
+    {"name": "Keith Tubbs"},
+    {"name": "Kenneth Weine"},
+    {"name": "Claire Weisz"}
+  ],
+  "new_no_990_trail": [
+    {"name": "Jake Barton", "affiliation": "Local Projects"},
+    {"name": "Karl Chen", "affiliation": "D.E. Shaw"},
+    {"name": "Lucia Deng", "affiliation": "Northwell"},
+    {"name": "Edmundo Martinez"},
+    {"name": "Wiley Norvell", "affiliation": "Rubenstein"},
+    {"name": "Alison Sant", "affiliation": "Studio for Urban Projects"}
+  ],
+  "departed": [
+    {"name": "Bahij Chancey", "role": "Secretary"},
+    {"name": "Curtis Archer"},
+    {"name": "Doug Ellis"},
+    {"name": "George Beane"},
+    {"name": "John Choe"},
+    {"name": "Michael Epstein"},
+    {"name": "Richard B. Miller"},
+    {"name": "Sarah Kaufman"}
+  ],
+  "advisory_council": ["George Beane", "Curtis Archer", "Doug Ellis"],
+  "key_employees": [
+    {"name": "Ben Furnas", "role": "Exec Director"},
+    {"name": "Danny Harris"},
+    {"name": "Keegan Stephan"},
+    {"name": "Elizabeth Adams"},
+    {"name": "Thomas DeVito"},
+    {"name": "Marco Conner DiAquoi"}
+  ],
+  "known_spouse": {"person": "Daniel Kaizer", "spouse": "Adam Moss"}
+}
