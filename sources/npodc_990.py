@@ -20,19 +20,21 @@ def _classify_role(title: str, is_dir: bool, is_off: bool,
     """Determine member_type from 990 Part VII flags and title."""
     if is_key or is_hc:
         return "staff"
-    if is_dir or is_off:
-        return "board"
-    # Fall back to title-based classification
+    # Title-based staff detection — officers can be staff (ED, CFO, etc.)
     title_lower = (title or "").lower().strip()
     staff_keywords = [
         "executive director", "deputy director", "director of",
-        "chief", "ceo", "cfo", "coo", "cto", "president",
+        "chief", "ceo", "cfo", "coo", "cto",
         "vp ", "vice president", "counsel", "manager",
-        "coordinator", "analyst",
+        "coordinator", "analyst", "senior director",
     ]
     for kw in staff_keywords:
         if kw in title_lower:
             return "staff"
+    if is_dir:
+        return "board"
+    if is_off:
+        return "board"
     return "board"
 
 
